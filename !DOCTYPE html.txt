@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about me">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact me">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="Home">
+        <div class="main">
+            <h1 class="headings">I AM <br> Junhice Ezekiel R. Darasin </h1>
+            <button class="btn">
+                First Year Student
+            </button>
+        </div>
+    </section>
+
+    <section id="About">
+            <h1 class="headings">About Me</h1>
+            <div id="pic">
+            <img src="me.jpg" alt="">
+            <div id="intro">
+                <h2>Junhice Darasin</h2>
+                <p>As a first-year college student, I embody kindness, generosity, loyalty, and faithfulness. My compassionate nature shines through in my interactions with others, making me a supportive and caring friend. My generosity extends beyond material possessions, as I'm always willing to give my time and support to those in need. My loyalty is unwavering, standing by my friends and loved ones through thick and thin. My faithfulness is reflected in my commitment to values and beliefs, guiding my actions with integrity and sincerity. Overall, I am a remarkable individual who brings warmth and positivity to those around me.</p>
+            </div>
+    </section>
+
+    <section id="Portfolio">
+        <h1 class="headings">PORTFOLIO</h1>
+        <div class="gallery">
+            <img src="to.jpg" alt="">
+            <img src="lap.jpg" alt="">
+            <img src="car.jpg" alt="">
+            <img src="lit.jpg" alt="">
+            <img src="light.jpg" alt="">
+            <img src="bird.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="Services">
+        <h1 class="headings"> Services</h1>
+        <div class="row">
+            <div class="box">
+                <img src="service.png" alt="">
+                <h1 class="headings">Photo Editing</h1>
+                <p>Photo editing services enhance images' visual quality, meet specific requirements, and include tasks like retouching, color correction, cropping, resizing, blemish removal, lighting adjustments, and filtering. Our photo editing service transforms your images with professional precision, enhancing their quality and visual appeal. From color correction to retouching, we ensure every detail is perfected to meet your specific needs and exceed your expectations.</p>
+            </div>
+            <div class="box">
+                <img src="service.png" alt="">
+                <h1 class="headings">Video Editing</h1>
+                <p>Video editing involves manipulating and rearranging footage to convey a message or story, enhancing audio and visuals, and can be used for marketing, entertainment, education, and personal projects. Our video editing service crafts engaging and polished videos that captivate your audience. From cutting and sequencing to adding effects and sound, we ensure your content is visually stunning and professionally refined.</p>
+            </div>
+            <div class="box">
+                <img src="service.png" alt="">
+                <h1 class="headings">PowerPoint Presentation</h1>
+                <p>PowerPoint Presentation services involve creating visually engaging and informative slideshows tailored to your needs. This includes designing slide layouts, incorporating multimedia elements like images, videos, and animations, and organizing content for clarity and impact. These services ensure that your presentation effectively communicates your message, whether for business meetings, educational sessions, conferences, or pitches.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact">
+        <h1 class="headings">Contact</h1>
+        <form action="" class="form">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section>
+</body>
+</html>
